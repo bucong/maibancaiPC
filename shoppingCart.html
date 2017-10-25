@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/build.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<header>
+		<div class="head-top med">
+			<div class="contain flex">
+				<div class="flex">
+					<span style="margin-right: 30px;">欢迎访问买板材！</span>
+					<a href="register.html">立即注册</a>
+					<label></label>
+					<a href="login.html">会员登录</a>
+				</div>
+				<div class="flex">
+					<a href="myOrder.html">我的订单</a>
+					<label></label>
+					<a href="shoppingCart.html"><span class="fa fa-shopping-cart"></span> 我的购物车(0)</a>
+					<label></label>
+					<a href="people.html">个人中心</a>
+					<div class="kefu">
+						<span class="fa fa-phone"></span>
+						<span>客服电话：400-2355-789</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="med" style="background: #fff;">
+			<div class="contain flex">
+				<div class="head-body">
+					<div class="flex">
+						<img src="images/logo.jpg"/ width="80px">
+						<div class="warehouse">
+							<span class="fa fa-map-marker"></span>
+							<span>选择仓库:「<label>上海</label>」</span>
+							<a href="javascript:void(0)">切换</a>
+						</div>
+						<div class="flex search-box">
+							<input type="text" name="" id="" value="" placeholder="请输入你的关键词" />
+							<button>
+								<span class="fa fa-search"></span> &nbsp; 搜索
+							</button>
+						</div>
+					</div>
+					<div class="nav-head">
+						<div class="classify classify-hide fl">
+							<div class="all flex">
+								<span>所有商品分类</span>
+								<span class="fa fa-angle-down"></span>
+							</div>
+							<div class="classify-detail">
+								<ul class="fl">
+									<li>
+										<span>多层板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">1兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>包装板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">2兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>阻燃板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">3兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>生态板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>木工板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>集材板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>密度板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>刨花板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<span>石膏板</span><span class="fa fa-angle-right"></span>
+										<div class="expand-list">
+											<div>
+												<button>品牌</button>
+												<p>
+													<a href="">兔宝宝</a>
+													<a href="">百强</a>
+													<a href="">庭友</a>
+													<a href="">DIY</a>
+													<a href="">百尊</a>
+													<a href="">得利斯</a>
+													<a href="">星工场</a>
+													<a href="">千年舟</a>
+													<a href="" class="active">晓江南</a>
+													<a href="">莫干山</a>
+												</p>
+											</div>
+											<div>
+												<button>材质</button>
+												<p>
+													<a href="">PMMA</a>
+													<a href="">樟子松</a>
+													<a href="">花旗松</a>
+													<a href="">衫木芯</a>
+													<a href="">杨木芯</a>
+												</p>
+											</div>
+											<div>
+												<button>厚度</button>
+												<p>
+													<a href="">2.7mm</a>
+													<a href="">3mm</a>
+													<a href="">5mm</a>
+													<a href="">9mm</a>
+												</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="nav-box fl flex">
+							<a href="index.html">首页</a>
+							<a href="store.html">板材商城</a>
+							<a href="customize.html">板材定制</a>
+							<a href="activities.html">活动中心</a>
+							<a href="help.html">帮助中心</a>
+						</div>
+					</div>
+				</div>
+				<div class="head-qrcode">
+					<h5>微信扫一扫</h5>
+					<img src="images/qrcodeOrange.jpg"/>
+				</div>
+			</div>
+		</div>
+	</header>
+	<article style="padding-top: 182px;align-items: flex-start;" class="contain flex">
+		<section class="people">
+			<img src="images/myorder_03.jpg"/>
+			<h5>我家狗想你</h5>
+			<h6>普通用户</h6>
+			<button>切换账号</button>
+			<div>
+				<span>5000</span>
+				<p>授信额度(元)</p>
+				<hr />
+				<span>--</span>
+				<p>可用额度(元)</p>
+			</div>
+			<ul>
+				<li class="active">
+					<a href="shoppingCart.html">我的购物车(0)</a>
+				</li>
+				<li>
+					<a href="myorder.html">订单管理</a>
+				</li>
+				<li>
+					<a href="baseInfo.html">基本资料</a>
+				</li>
+				<li>
+					<a href="billing.html">开票资料</a>
+				</li>
+				<li>
+					<a href="customize.html">我要定制</a>
+				</li>
+				<li>
+					<a href="mycustomize.html">我的定制(0)</a>
+				</li>
+				<li>
+					<a href="changePassword.html">修改密码</a>
+				</li>
+			</ul>
+		</section>
+		<section class="shopping-cart">
+			<div class="flex" style="border-bottom: 1px solid #ccc;padding-bottom: 30px;margin-bottom: 20px;">
+				<h2>我的购物车</h2>
+				<button class="clear-cart">清空购物车</button>
+			</div>
+			<table border="0">
+				<thead>
+				<tr>
+					<th>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</th>
+					<th>全选</th>
+					<th>商品信息</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>小计</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tr>
+					<td>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</td>
+					<td><img src="images/myorder_07.jpg"/></td>
+					<td>百强板材 E0级 18mm胶 合板多层板板</td>
+					<td>￥12.90</td>
+					<td>
+						<button class="minus">-</button>
+						<input type="text" class="num" value="1" style="width: 70px;" />
+						<button class="plus">+</button>
+					</td>
+					<td>￥12.90</td>
+					<td><a href="javascript:void(0)">删除</a></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</td>
+					<td><img src="images/myorder_07.jpg"/></td>
+					<td>百强板材 E0级 18mm胶 合板多层板板</td>
+					<td>￥12.90</td>
+					<td>
+						<button class="minus">-</button>
+						<input type="text" class="num" value="1" style="width: 70px;" />
+						<button class="plus">+</button>
+					</td>
+					<td>￥12.90</td>
+					<td><a href="javascript:void(0)">删除</a></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</td>
+					<td><img src="images/myorder_07.jpg"/></td>
+					<td>百强板材 E0级 18mm胶 合板多层板板</td>
+					<td>￥12.90</td>
+					<td>
+						<button class="minus">-</button>
+						<input type="text" class="num" value="1" style="width: 70px;" />
+						<button class="plus">+</button>
+					</td>
+					<td>￥12.90</td>
+					<td><a href="javascript:void(0)">删除</a></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</td>
+					<td><img src="images/myorder_07.jpg"/></td>
+					<td>百强板材 E0级 18mm胶 合板多层板板</td>
+					<td>￥12.90</td>
+					<td>
+						<button class="minus">-</button>
+						<input type="text" class="num" value="1" style="width: 70px;" />
+						<button class="plus">+</button>
+					</td>
+					<td>￥12.90</td>
+					<td><a href="javascript:void(0)">删除</a></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="checkbox checkbox-info checkbox-circle">
+				            <input class="styled" type="checkbox" >
+				            <label></label>
+				        </div>
+					</td>
+					<td><img src="images/myorder_07.jpg"/></td>
+					<td>百强板材 E0级 18mm胶 合板多层板板</td>
+					<td>￥12.90</td>
+					<td>
+						<button class="minus">-</button>
+						<input type="text" class="num" value="1" style="width: 70px;" />
+						<button class="plus">+</button>
+					</td>
+					<td>￥12.90</td>
+					<td><a href="javascript:void(0)">删除</a></td>
+				</tr>
+			</table>
+			<div class="flex total">
+				<div style="width: 120px;margin-left: 30px;">已选(2)</div>
+				<a href="javascript:void(0)">批量删除</a>
+				<span>商品合计：￥25.80</span>
+				<span>活动优惠：￥0.00</span>
+				<div>应付总额：</div>
+				<label>￥25.80</label>
+				<button>立即下单</button>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<div class="foot">
+			<div class="contain flexa">
+				<div class="foot-box">
+					<h5>客服电话</h5>
+					<h1>400-2355-789</h1>
+					<h6>9:00-22:00</h6>
+					<div class="flex foot-btn">
+						<button>用户反馈</button>
+						<button>在线客服</button>
+					</div>
+				</div>
+				<hr />
+				<div class="foot-box">
+					<h5>买板材</h5>
+					<p>一家专业从事木业产品的研发、生产和销售于一体的综合性企业。公司现有产品类型：细木工板（大芯板）、多层板、生态板、阻燃板、建筑模板、防腐木、装饰贴面板、密度板、刨花板、木方等。</p>
+				</div>
+				<hr />
+				<div class="foot-box">
+					<h5>微信扫一扫 关注我们</h5>
+					<img src="images/qrcodeBlack.jpg"/>
+				</div>
+			</div>
+		</div>
+		<div class="copy-right">
+			<div class="contain">
+				Copyright © 2017买板材 沪ICP备10011451号-6
+			</div>
+		</div>
+	</footer>
+	<div class="meng"></div>
+	<div class="choose-warehouse meng-box">
+		<div class="flex">
+			<h5>选择仓库</h5>
+			<span class="close">&times;</span>
+		</div>
+		<ul>
+			<li class="active">上海</li>
+			<li>北京</li>
+			<li>深圳</li>
+			<li>广州</li>
+			<li>贵阳</li>
+			<li>南京</li>
+			<li>襄阳</li>
+			<li>沈阳</li>
+			<li>淮安</li>
+		</ul>
+		<div class="ware-btn">
+			<button>确定</button>
+			<button>取消</button>
+		</div>
+	</div>
+</body>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="components/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
+</script>
+</html>
